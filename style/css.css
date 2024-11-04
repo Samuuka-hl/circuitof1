@@ -1,0 +1,38 @@
+
+.cool-link {
+    display: inline-block;
+    text-decoration: none;
+}
+
+.cool-link::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #ff0000;
+    transition: width .3s;
+}
+
+.cool-link:hover::after {
+    width: 100%;
+    transition: width .3s;
+}
+
+.bg-card {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.m-card {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+@font-face{
+    font-family: Formula1-Regular;
+    src: url("font/Formula1-Regular.otf") format('truetype');
+}
+
+
+h1, h2{
+	font-family:Formula1-Regular;
+}
