@@ -28,6 +28,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             if (password_verify($senha, $user['senha'])) {
                 // Armazena os dados do usuário na sessão
                 $_SESSION['loggedin'] = true;
+                $_SESSION['usuario_id'] = $user['id'];
                 $_SESSION['nome'] = $user['nome'];
                 $_SESSION['email'] = $user['email'];
 

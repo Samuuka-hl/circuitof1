@@ -1,6 +1,6 @@
-<?php include "../../config.php"; ?>
+<?php 
+include "../../config.php";
 
-<?php
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     if (isset($_SESSION['usuario_id'])) {
         $comentario = $_POST['comentario'];
