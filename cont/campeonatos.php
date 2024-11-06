@@ -25,11 +25,10 @@
                     ?>
                 </select>
             </div>
-            
-                <div id="table-container" class="">
-                    <!-- A tabela será carregada aqui via AJAX -->
-                </div>
+            <div id="table-container" class="">
+                <!-- A tabela será carregada aqui via AJAX -->
             </div>
+        </div>
 
 <script>
 function loadTable(year) {

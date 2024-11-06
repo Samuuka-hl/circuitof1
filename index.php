@@ -8,24 +8,24 @@
                 <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
                     <div class="carousel-inner shadow-lg">
                         <div class="carousel-item active">
-                                <img src="img/c1.jpg" class="d-block" alt="...">
-                                <div class="carousel-caption d-none d-md-block">
-                                    <h5>Opinião dos Torcedores</h5>
-                                    <a class=""><button type="button" class="btn btn-danger mt-4">Veja Aqui!</button></a>
-                                </div>
+                            <img src="img/c1.jpg" class="d-block" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Opinião dos Torcedores</h5>
+                                <a href="cont/com/comunidade.php" class=""><button type="button" class="btn btn-danger mt-4">Veja Aqui!</button></a>
+                            </div>
                         </div>
                         <div class="carousel-item">
                             <img src="img/c2.jpg" class="d-block" alt="...">
                             <div class="carousel-caption d-none d-md-block">
                                 <h5>História da Fórmula 1</h5>
-                                <a class=""><button type="button" class="btn btn-danger mt-4">Veja Aqui!</button></a>
+                                <a href="cont/historia.php" class=""><button type="button" class="btn btn-danger mt-4">Veja Aqui!</button></a>
                             </div>
                         </div>
                         <div class="carousel-item">
                             <img src="img/c3.jpg" class="d-block" alt="...">
                             <div class="carousel-caption d-none d-md-block">
                                 <h5>Pontuação do Campeonato Atual</h5>
-                                <a class=""><button type="button" class="btn btn-danger mt-4">Veja Aqui!</button></a>
+                                <a href="cont/campeonatos.php" class=""><button type="button" class="btn btn-danger mt-4">Veja Aqui!</button></a>
                             </div>
                         </div>
                     </div>

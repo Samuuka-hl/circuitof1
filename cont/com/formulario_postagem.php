@@ -21,10 +21,6 @@ if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !== true) {
                 <h2 class="text-center text-light">Adicionar Comentário</h2>
                 <form data-bs-theme="dark" action="processa_postagem.php" method="POST" enctype="multipart/form-data">
                     <div class="mb-3">
-                        <label for="titulo" class="form-label text-light">Título</label>
-                        <input type="text" class="form-control" id="titulo" name="titulo" required>
-                    </div>
-                    <div class="mb-3">
                         <label for="comentario" class="form-label text-light">Comentário</label>
                         <textarea class="form-control" id="comentario" name="comentario" rows="4" required></textarea>
                     </div>

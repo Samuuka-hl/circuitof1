@@ -37,7 +37,6 @@ if (session_status() === PHP_SESSION_NONE) {
         h1, h2, a{
             font-family:Formula1-Regular;
         }
-
         
         .bg2{
                 background-image: url("../img/camp.jpg");
